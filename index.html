@@ -1,13 +1,19 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>hyle</title>
-  </head>
-  <body>
-    <h1>ὕλη</h1>
-    <p>O ventre está de pé.</p>
-  </body>
-</html>
+      <meta charset="UTF-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+              <title>hyle</title>
+                  <link rel="manifest" href="/hyle/manifest.json" />
+                      <meta name="theme-color" content="#000000" />
+                        </head>
+                          <body>
+                              <h1>ὕλη</h1>
+                                  <p>O ventre está de pé.</p>
+                                      <script>
+                                            if ('serviceWorker' in navigator) {
+                                                    navigator.serviceWorker.register('/hyle/sw.js');
+                                                          }
+                                                              </script>
+                                                                </body>
+                                                                </html>
